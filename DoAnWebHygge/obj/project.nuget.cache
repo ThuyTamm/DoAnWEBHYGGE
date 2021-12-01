@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kFGOv98R9zY2n34BdgJe++fFRWlqKtFIGeCSeTDkQb5eFGX/DksVIZLQ94rPJAJLHln31ggzN3Iu6za2qwOBFQ==",
+  "dgSpecHash": "TvLuXXBR+3ArnOAin+kMz4Cg72WBwOHN8fTb72+a6yry6KrVcbbi8mxeTI4EKCYj7Tm+Jti4CesOUtxryru7DQ==",
   "success": true,
-  "projectFilePath": "D:\\WEB1\\DoAnWEB1\\DoAnWebHygge\\DoAnWebHygge\\DoAnWebHygge.csproj",
+  "projectFilePath": "D:\\WEB1\\DoAnWEBHYGGE\\DoAnWebHygge\\DoAnWebHygge.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TAM PHAN\\.nuget\\packages\\microsoft.aspnetcore\\2.1.7\\microsoft.aspnetcore.2.1.7.nupkg.sha512",
     "C:\\Users\\TAM PHAN\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.1.1\\microsoft.aspnetcore.authentication.abstractions.2.1.1.nupkg.sha512",

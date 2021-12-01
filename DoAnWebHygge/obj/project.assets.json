@@ -2725,11 +2725,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\WEB1\\DoAnWEB1\\DoAnWebHygge\\DoAnWebHygge\\DoAnWebHygge.csproj",
+      "projectUniqueName": "D:\\WEB1\\DoAnWEBHYGGE\\DoAnWebHygge\\DoAnWebHygge.csproj",
       "projectName": "DoAnWebHygge",
-      "projectPath": "D:\\WEB1\\DoAnWEB1\\DoAnWebHygge\\DoAnWebHygge\\DoAnWebHygge.csproj",
+      "projectPath": "D:\\WEB1\\DoAnWEBHYGGE\\DoAnWebHygge\\DoAnWebHygge.csproj",
       "packagesPath": "C:\\Users\\TAM PHAN\\.nuget\\packages\\",
-      "outputPath": "D:\\WEB1\\DoAnWEB1\\DoAnWebHygge\\DoAnWebHygge\\obj\\",
+      "outputPath": "D:\\WEB1\\DoAnWEBHYGGE\\DoAnWebHygge\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TAM PHAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
