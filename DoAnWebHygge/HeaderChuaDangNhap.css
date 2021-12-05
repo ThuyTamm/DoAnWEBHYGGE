@@ -37,6 +37,7 @@ header {
 .nav_menu
 {
     list-style: none;
+    margin-left: 20px;
 }
 
     .nav_menu li {
@@ -58,11 +59,13 @@ header {
                 padding: 6px 0px;
             }
 
-
+.button{
+    margin-left: auto;
+}
 
 .nav_links {
     list-style: none;
-    margin-left: 500px;
+   
     
 }
     .nav_links li {
