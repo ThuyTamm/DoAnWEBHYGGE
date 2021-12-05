@@ -1,0 +1,53 @@
+.playlist {
+    width: 80%;
+    height: 80px;
+    border-radius: 40px;
+    position: fixed;
+    top: 0;
+    padding: 0px 0;
+    background: white;
+    z-index: 0;
+    transition: 1s;
+    overflow: auto;
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, #27CBC9 0%, #2436A0 100%);
+}
+
+.queue {
+    width: 100%;
+    height: 80px;
+    padding: 0 0px;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid var(--alpha-color);
+}
+
+.queue-cover {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-right: 20px;
+    position: relative;
+    margin-left: 10px;
+}
+
+.queue-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.queue .name {
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.description a1 {
+    font-size: 24px;
+}
+
+.description a2 {
+    font-size: 13px;
+    font-style: italic;
+}
