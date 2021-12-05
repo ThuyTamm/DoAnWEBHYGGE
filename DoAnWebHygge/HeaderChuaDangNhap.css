@@ -62,7 +62,8 @@ header {
 
 .nav_links {
     list-style: none;
-    margin-left: 500px;
+    margin: auto;
+
     
 }
     .nav_links li {

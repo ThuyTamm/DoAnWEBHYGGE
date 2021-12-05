@@ -15,8 +15,17 @@ section {
     background: rgba(244, 247, 251, 1);
     border-radius: 10px;
 }
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+}
 
-.btTime {
+.btnTime {
     flex: 1 1 auto;
     padding: 10px 24px;
     text-align: center;
@@ -25,11 +34,12 @@ section {
     background-size: 200% auto;
     color: black;
     border-radius: 10px;
-    display: flex;
+    display: inline-block;
     border: 3px solid rgba(204, 204, 204, 1);
     background-color: white;
+    margin-bottom: 10px;
+    margin-right: 20px;
 }
-.btnTime:hover
-{
-
-}
+    .btnTime:hover {
+        background-color: rgba(204, 204, 204, 1);
+    }
