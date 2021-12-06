@@ -21,7 +21,7 @@ footer {
     bottom: 0px;
     width: 100%;
     background-color: rgba(244, 247, 251, 1);
-    border: 1px solid rgba(204, 204, 204, 1);
+   
 }
 
 
@@ -56,7 +56,9 @@ footer {
     width: 100px;
     height: 69px;
     align-items: center;
-    margin-left: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 
@@ -125,6 +127,7 @@ footer {
     background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 51%, #27CBC9 100%);
     display: flex;
     border: none;
+    margin-right: auto;
 }
     .btnSend button:hover {
         background-position: right center;

@@ -35,12 +35,17 @@ header {
 
 .nav_menu {
     list-style: none;
+    margin-left: 20px;
 }
 
 .nav_menu li {
     display: inline-block;
     padding: 0px 28px;
 }
+
+
+.button{
+    margin-left: auto;
 
 .nav_menu li a {
     border-top: 4px solid rgba(244, 247, 251, 1);
@@ -51,11 +56,17 @@ header {
     border-top: 4px solid #2436A0;
     border-bottom: 4px solid #2436A0;
     padding: 6px 0px;
+
 }
 
 .nav_links {
     list-style: none;
+
+   
+    
+
     margin-left: auto;
+
 }
 
 .nav_links li {
