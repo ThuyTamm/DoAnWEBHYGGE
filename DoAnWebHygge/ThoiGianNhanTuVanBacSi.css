@@ -109,3 +109,8 @@ table {
     .btnCapNhat:hover {
         background-position: right center;
     }
+img
+{
+    width: 10px;
+    height: 10px;
+}
