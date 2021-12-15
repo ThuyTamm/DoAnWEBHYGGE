@@ -1,16 +1,38 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgba(244, 247, 251, 1);
+    background-color: white;
 }
 
-.btnXemThem {
-    color: #0078BD;
-    padding: 0px 20px;
-    text-align: right;
+.container {
+    width: 100%;
 }
 
-.btnXemThem:hover {
-    color: red;
+.left {
+    width: 64%;
+    background: #F4F7FB;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    float: left;
+}
+
+.right {
+    width: 35%;
+    background: #F4F7FB;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
 }
 
 .queue {
@@ -99,55 +121,22 @@ body {
     display: flex;
 }
 
-.radio {
-    background: white;
-    padding: 4px;
-    border-radius: 3px;
-    position: relative;
-}
-
-.radio input {
-    width: auto;
-    height: 100%;
-    appearance: none;
-    outline: none;
-    cursor: pointer;
-    border-radius: 2px;
-    padding: 4px 8px;
-    background: #FFFFFF;
-    color: #000000;
-    font-size: 14px;
-    transition: all 100ms linear;
-}
-
-.radio input:checked {
-    background-image: linear-gradient(180deg, #27CBC9, #2436A0);
-    color: #FFFFFF;
-}
-
-.radio input:before {
-    content: attr(label);
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-}
-
-td {
+.btnDangNhap {
     flex: 1 1 auto;
-    padding: 10px 24px;
+    padding: 8px 24px;
     text-align: center;
     text-transform: none;
+    font-size: 16px;
     transition: 0.5s;
     background-size: 200% auto;
-    color: black;
+    color: white;
     border-radius: 10px;
-    display: inline-block;
-    border: 3px solid rgba(204, 204, 204, 1);
-    background-color: white;
-    margin-bottom: 10px;
-    margin-right: 20px;
+    background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 51%, #27CBC9 100%);
+    display: flex;
+    border: none;
+    margin: auto;
 }
 
-td:hover {
-    background-color: rgba(204, 204, 204, 1);
+.btnDangNhap:hover {
+    background-position: right center;
 }
