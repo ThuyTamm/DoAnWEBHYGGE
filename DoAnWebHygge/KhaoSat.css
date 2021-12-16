@@ -28,3 +28,9 @@ h2 {
     color: black;
 }
 
+iframe {
+    width: 100%;
+    border: none;
+}
+
+
