@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Khảo sát</title>
+    <link rel="stylesheet" type="text/css" href="HeaderBenhNhan.css" />
+    <link rel="stylesheet" type="text/css" href="KhaoSat.css" />
+    <link href="DanhGiaSucKhoe.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript">
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        /* Hiển thị giá trị mặc định 50 cho thẻ span với id là demo*/
+        output.innerHTML = slider.value;
+        /* cập nhật giá trị hiện tại của ranger slider*/
+        slider.oninput = function () {
+            output.innerHTML = this.value;
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="Images/Hygge.png" alt="Hygge" />
+        </div>
+        <nav class="nav_menu">
+            <ul class="nav_menu">
+                <li><a href="#">Cần tư vấn</a></li>
+                <li><a href="#">Tự trị liệu</a></li>
+                <li><a href="#">Blog chia sẻ</a></li>
+            </ul>
+        </nav>
+        <div class="nav_links">
+            <ul>
+                <li><a><img class="noti" src="Images/notification.png" /></a></li>
+                <li><a><img class="support" src="Images/headphone.png" /></a></li>
+                <li><a><img class="profile" src="Images/user.png" /></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <marquee direction="right" behavior="scroll" loop=-1
+             scrollamount=10>
+        Xin chào! Thúy Tâm
+    </marquee>
+
+    <section>
+        <div>
+            <h2>Đánh giá sức khỏe tinh thần của bạn trong những hoạt động hằng ngày</h2>
+            <div class="block">
+                <p>Bạn hãy tự đánh giá sức khỏe tinh thần của mình từ thấp đến cao</p>
+                <hr/>
+                <table width="100%" align="center">
+                    <tr>
+                        <td>
+                            Thấp
+                        </td>
+                        <td>
+                            Trung bình
+                        </td>
+                        <td>
+                            Cao
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="slidecontainer">
+                <p class="cutmargin">Giá trị bản thân</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div class="slidecontainer">
+                <p class="cutmargin">Khả năng giải quyết vấn đề</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div class="slidecontainer">
+                <p class="cutmargin">Khả năng kiểm soát áp lực</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div class="slidecontainer">
+                <p class="cutmargin">Mức độ lo lắng</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div class="slidecontainer">
+                <p class="cutmargin">Động lực thực hiện mục tiêu</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div class="slidecontainer">
+                <p class="cutmargin">Chất lượng giấc ngủ</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div class="slidecontainer">
+                <p class="cutmargin">Nguồn năng lượng tinh thần</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div class="slidecontainer">
+                <p class="cutmargin">Khả năng tập trung</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div class="slidecontainer">
+                <p class="cutmargin">Nhận thức về bản thân</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <div class="slidecontainer">
+                <p class="cutmargin">Khả năng giao tiếp và làm việc nhóm</p>
+                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+            </div>
+            <h2><i>"Sức khỏe tốt và trí tuệ minh mẫn là hai điều hạnh phúc nhất của cuộc đời"</i></h2>
+            <input class="btnHoanThanh" type="submit" value="Hoàn thành">
+        </div>
+        
+    </section>
+
+</body>
+</html>

@@ -44,10 +44,11 @@ header {
 }
 
 
-.button{
+.button {
     margin-left: auto;
-
-.nav_menu li a {
+}
+.nav_menu li a 
+ {
     border-top: 4px solid rgba(244, 247, 251, 1);
     border-bottom: 4px solid rgba(244, 247, 251, 1);
 }

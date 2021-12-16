@@ -115,7 +115,6 @@ input[type=range] {
     border-radius: 2px;
     height: 100px;
     width: 50%;
-    padding-left: 0;
     margin-bottom: 15px;
     margin: auto;
     background-color: #F4F7FB;
@@ -135,7 +134,7 @@ hr {
     border-radius: 2px;
     width: 50%;
 }
-.btnDangKy {
+.btnHoanThanh {
     flex: 1 1 auto;
     padding: 8px 24px;
     text-align: center;
@@ -147,9 +146,8 @@ hr {
     background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 51%, #27CBC9 100%);
     border: none;
     margin: auto;
-    width: 300px;
 }
 
-    .btnDangKy:hover {
+    .btnHoanThanh:hover {
         background-position: right center;
     }
