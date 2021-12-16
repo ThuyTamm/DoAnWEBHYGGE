@@ -125,3 +125,12 @@ h3{
 	border: 1px solid #27CBC9;
 	background-color: #F4F7FB
 }
+.icon{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+}
+.icon .text{
+	margin: auto;
+	font-weight: bold;
+}
