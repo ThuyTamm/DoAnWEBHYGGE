@@ -13,7 +13,7 @@
 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 60px;
+    margin-left: 40px;
     font-family: Roboto;
     font-size: 24px;
     font-weight: 500;
@@ -23,7 +23,8 @@ h2 {
 .btnXemThem {
     color: #0078BD;
     padding: 0px 20px;
-    text-align: right;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .btnXemThem:hover {
@@ -77,7 +78,7 @@ h2 {
 .btnDatlich {
     flex: 1 1 auto;
     padding: 8px;
-
+    text-align: center;
     text-transform: none;
     transition: 0.5s;
     background-size: 200% auto;
@@ -97,19 +98,19 @@ h2 {
     padding: 10px;
 }
 
-.description{    
+.descriptionBS{    
     margin-right: auto;
     margin-left: 40px;
 }
 
-.description a1 {
+.descriptionBS a1 {
     margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
 
 }
 
-.description a2 {
+.descriptionBS a2 {
     font-size: 16px;
     font-style: italic;
 }

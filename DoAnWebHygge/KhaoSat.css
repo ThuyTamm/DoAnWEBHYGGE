@@ -8,6 +8,9 @@
     font-weight: 500;
 }
 
+section{
+    background-color: white;
+}
 
 marquee {
     background: linear-gradient(90deg, #27CBC9 0%, #0078BD 118.75%);

@@ -33,5 +33,6 @@ h2 {
 
 iframe {
     width: 100%;
-    border: none;
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, #27CBC9 0%, #2436A0 87.83%);
 }
