@@ -36,8 +36,6 @@ body {
 	transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	border-radius: 10px;
-	/* border-top-left-radius: 100px;
-	border-bottom-left-radius: 100px; */
 }
 .player ul {
 	list-style: none;
@@ -217,7 +215,6 @@ body {
 	margin-top: 10px;
 	position: inherit;
 	pointer-events: none;
-    background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 100%);
 }
 @-moz-document url-prefix() { 
 	.slider .volume{
