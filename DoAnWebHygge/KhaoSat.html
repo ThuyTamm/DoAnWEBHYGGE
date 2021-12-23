@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Khảo sát</title>
+    <link rel="stylesheet" type="text/css" href="HeaderBenhNhan.css" />
+    <link rel="stylesheet" type="text/css" href="KhaoSat.css" />
+    <link href="DanhGiaSucKhoe.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript">
+        var slider = document.getElementById("myRange");
+        var output = document.getElementById("demo");
+        /* Hiển thị giá trị mặc định 50 cho thẻ span với id là demo*/
+        output.innerHTML = slider.value;
+        /* cập nhật giá trị hiện tại của ranger slider*/
+        slider.oninput = function () {
+            output.innerHTML = this.value;
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div>
+            <img class="logo" src="Images/Hygge.png" alt="Hygge" />
+        </div>
+        <nav class="nav_menu">
+            <ul class="nav_menu">
+                <li><a href="#">Cần tư vấn</a></li>
+                <li><a href="#">Tự trị liệu</a></li>
+                <li><a href="#">Blog chia sẻ</a></li>
+            </ul>
+        </nav>
+        <div class="nav_links">
+            <ul>
+                <li><a><img class="noti" src="Images/notification.png" /></a></li>
+                <li><a><img class="support" src="Images/headphone.png" /></a></li>
+                <li><a><img class="profile" src="Images/user.png" /></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <marquee direction="right" behavior="scroll" loop=-1
+             scrollamount=10>
+        Xin chào! Thúy Tâm
+    </marquee>
+
+    <section>
+
+        <iframe src="DanhGiaSucKhoe.html" height="1200px"></iframe>
+
+        
+    </section>
+
+</body>
+</html>

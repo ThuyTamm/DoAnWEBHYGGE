@@ -14,7 +14,7 @@ body {
     color: red;
 }
 
-.queue {
+.queueBL {
     width: 100%;
     height: 80px;
     display: flex;
