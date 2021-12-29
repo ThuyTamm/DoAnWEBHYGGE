@@ -1,6 +1,4 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-
 * {
     padding: 0;
     margin: 0;
@@ -15,6 +13,16 @@ section {
     text-decoration: none;
 }
 
+.btnXemThem {
+    color: #0078BD;
+    padding: 0px 20px;
+    text-align: right;
+}
+
+.btnXemThem:hover {
+    color: red;
+}
+
 .LichHenSapToi {
     margin-left: 80px;
 }
@@ -25,7 +33,7 @@ h2 {
     margin-left: 60px;
     font-family: Roboto;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: bold;
     color: black;
 }
 
@@ -43,13 +51,13 @@ h2 {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    object-fit: cover;
 }
 
 .Content1 {
     margin-top: 10px;
     text-align: center;
 }
-
 
 .GhiChu {
     margin-left: 80px;
@@ -60,7 +68,6 @@ h2 {
     height: 250px;
     background: rgba(244, 247, 251, 1);
 }
-
 
 .btnGhiChu {
     flex: 1 1 auto;
@@ -78,7 +85,6 @@ h2 {
     margin-top: 10px;
 }
 
-    .btnGhiChu:hover {
-        background-position: right center;
-    }
-
+.btnGhiChu:hover {
+    background-position: right center;
+}

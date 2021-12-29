@@ -4,6 +4,16 @@ body {
     background-color: rgba(244, 247, 251, 1);
 }
 
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-family: Roboto;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+
 .btnXemThem {
     color: #0078BD;
     padding: 0px 20px;
