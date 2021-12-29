@@ -58,3 +58,24 @@ body {
 .shadow-none {
     box-shadow: none!important;
 }
+
+.btnDangNhap {
+    width: fit-content;
+    flex: 1 1 auto;
+    padding: 8px 24px;
+    text-align: center;
+    text-transform: none;
+    font-size: 16px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 51%, #27CBC9 100%);
+    display: flex;
+    border: none;
+    margin: auto;
+}
+
+.btnDangNhap:hover {
+    background-position: right center;
+}

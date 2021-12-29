@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: rgba(244, 247, 251, 1);
@@ -7,6 +7,37 @@ body {
 iframe {
     width: 100%;
     border: none;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.btnDangNhap {
+    flex: 1 1 auto;
+    padding: 8px 24px;
+    text-align: center;
+    text-transform: none;
+    font-size: 16px;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 51%, #27CBC9 100%);
+    display: flex;
+    border: none;
+    margin-right: 40px;
+    float: right;
+}
+
+.btnDangNhap:hover {
+    background-position: right center;
 }
 
 a {
@@ -879,6 +910,7 @@ a {
     border-bottom: 4px solid #2436A0;
     padding: 6px 0px;
     font-weight: bold;
+    color: #0275d8;
 }
 
 nav {
@@ -899,20 +931,14 @@ nav {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    text-align: center;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     z-index: 1;
     border-radius: 10px;
     margin: auto;
     float: inherit;
-}
-
-.dropdown img {
-    width: 150px;
-    height: 150px;
 }
 
 .dropdown:hover .dropdown-content {
