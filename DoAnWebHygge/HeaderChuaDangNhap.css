@@ -3,10 +3,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
-
-li,
-a {
+section {
     font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
@@ -21,6 +20,8 @@ header {
     background-color: rgba(244, 247, 251, 1);
     justify-content: space-between;
     padding: 30px;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -38,19 +39,22 @@ header {
     margin-left: 20px;
 }
 
-.nav_menu li {
-    display: inline-block;
-    padding: 0px 28px;
-}
+    .nav_menu li {
+        display: inline-block;
+        padding: 0px 28px;
+        text-decoration: none;
+        color: black;
+    }
 
 
 .button {
     margin-left: auto;
 }
-.nav_menu li a 
- {
+.nav_menu li a {
     border-top: 4px solid rgba(244, 247, 251, 1);
     border-bottom: 4px solid rgba(244, 247, 251, 1);
+    text-decoration: none;
+    color: black;
 }
 
 .nav_menu li a:hover {
@@ -86,6 +90,7 @@ header {
     border-radius: 10px;
     background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 51%, #27CBC9 100%);
     display: flex;
+    text-decoration: none;
 }
 
 .btnDangKyHeader:hover {
@@ -96,6 +101,7 @@ header {
     color: black;
     border-top: 4px solid rgba(244, 247, 251, 1);
     border-bottom: 4px solid rgba(244, 247, 251, 1);
+    text-decoration: none;
 }
 
 .btnDangNhapHeader:hover {
