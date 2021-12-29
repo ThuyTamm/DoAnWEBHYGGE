@@ -121,5 +121,32 @@ marquee {
         background-position: right center;
     }
 
+.cardLichHen {
+    border: 1px solid rgba(204, 204, 204, 1);
+    width: 280px;
+    height: 240px;
+}
 
+
+.DichVuTuVan {
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+.cardTuVan {
+    width: 400px;
+    height: 180px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(204, 204, 204, 1);
+    padding: 10px
+}
+
+.imgTuVan {
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
