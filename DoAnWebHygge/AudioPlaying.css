@@ -279,3 +279,57 @@ input[type="range"]::-moz-range-thumb:hover, input[type="range"]::-moz-range-thu
 input[type="range"]::-ms-thumb:hover, input[type="range"]::-ms-thumb:focus, input[type="range"]::-ms-thumb:active {
 	background-color:#004974;
 }
+
+.likesharecount{
+	padding: 10px;
+	display: inline;
+}
+.likesharecount img{
+	width: 20px;
+	height: 20px;
+	display: inline;
+}
+.likesharecount p{
+	font-size: 20px;
+	display: inline;
+}
+.radio{
+	display: inline;
+	padding: 10px;
+	margin-top: auto;
+}
+.radio img{
+	display: inline;
+	width: 30px;
+	height: 30px;
+	vertical-align:middle;
+}
+.radio input {
+    flex: 1 1 auto;
+    width: auto;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px 24px;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    border: 3px solid rgba(204, 204, 204, 1);
+    text-align: center;
+    appearance: none;
+}
+
+.radio input:hover {
+    background-color: rgba(204, 204, 204, 1);
+}
+
+.radio input:checked {
+    background: #0078BD;
+    color: white;
+}
+
+.radio input:before {
+    content: attr(label);
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
