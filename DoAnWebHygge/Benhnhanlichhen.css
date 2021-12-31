@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(244, 247, 251, 1);
+}
+
+*, *:before, *:after {
+  -webkit-border-sizing: border-box;
+  -moz-border-sizing: border-box;
+  border-sizing: border-box;
+}
+
+.container {
+  width: 450px;
+}
+.container > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.4;
+  color: #C0392B;
+}
+
+.dropdown {
+  position: relative;
+}
+.dropdown a {
+  text-decoration: none;
+}
+.queue {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: top;
+  background: white;
+  border: double 1px transparent;
+  border-radius: 10px;
+  /* background-image: linear-gradient(white, white), radial-gradient(circle at top left, #27CBC9, #2436A0);
+  background-origin: border-box;
+  background-clip: content-box, border-box; */
+}
+
+.queue-cover {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  overflow: hidden;
+  position: left;
+}
+
+.rating-stars {
+  font-size: 20px;
+  color: #CCCCCC;
+}
+
+.rating-stars .active {
+  color: orange;
+}
+
+.queue-cover img {
+  width: 100%;
+  height: 100%;
+}
+.descriptionBS{    
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.descriptionBS a1 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+.left-card{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.dropdown [data-toggle="dropdown"] {
+  display: block;
+  color: black;
+  background: white;
+  -moz-box-shadow: 1px 1px 1px  black inset, 0 -1px 0 Black inset;
+  -webkit-box-shadow: 1px 1px 1px  black inset, 0 -1px 0 black inset;
+  box-shadow: 0 black inset, 0 -1px 0 black inset;
+  text-shadow:-1px  rgba(0, 0, 0, 0.3);
+  padding: 10px;
+}
+/* .dropdown [data-toggle="dropdown"]:hover {
+  background: black;
+} */
+.dropdown [data-toggle="dropdown"]:before {
+  position: absolute;
+  display: block;
+  content: '\25BC';
+  font-size: 1.2em;
+  color: black;
+  top: 7px;
+  right: 10px;
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -moz-transition: -moz-transform 0.6s;
+  -o-transition: -o-transform 0.6s;
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+}
+.dropdown > .dropdown-menu {
+  max-height: 0;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  -moz-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -moz-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  -webkit-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -moz-transition: max-height 0.2s ease-out;
+  -o-transition: max-height 0.2s ease-out;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+  animation: hideAnimation 0.2s ease-out;
+  -moz-animation: hideAnimation 0.2s ease-out;
+  -webkit-animation: hideAnimation 0.2s ease-out;
+}
+.dropdown > .dropdown-menu li {
+  padding: 0;
+}
+.dropdown > .dropdown-menu li a {
+  display: block;
+  color: black;
+  background: white;
+  -moz-box-shadow: 0 1px 0 white inset, 0 -1px 0 black inset;
+  -webkit-box-shadow: 0 1px 0 white inset, 0 -1px 0 black inset;
+  box-shadow: 0 1px 0 white inset, 0 -1px 0 black inset;
+  text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.3);
+  padding: 10px 10px;
+}
+.dropdown > .dropdown-menu li a:hover {
+  background: white;
+}
+.dropdown > input[type="checkbox"] {
+  opacity: 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.dropdown > input[type="checkbox"]:checked ~ .dropdown-menu {
+  max-height: 9999px;
+  display: block;
+  -moz-transform: scaleY(1);
+  -ms-transform: scaleY(1);
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  animation: showAnimation 0.2s ease-in-out;
+  -moz-animation: showAnimation 0.2s ease-in-out;
+  -webkit-animation: showAnimation 0.2s ease-in-out;
+  -moz-transition: max-height 2s ease-in-out;
+  -o-transition: max-height 2s ease-in-out;
+  -webkit-transition: max-height 2s ease-in-out;
+  transition: max-height 2s ease-in-out;
+}
+.dropdown > input[type="checkbox"]:checked + a[data-toggle="dropdown"]:before {
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+  -moz-transition: -moz-transform 0.1s;
+  -o-transition: -o-transform 0.1s;
+  -webkit-transition: -webkit-transform 0.1s;
+  transition: transform 0.1s;
+}
