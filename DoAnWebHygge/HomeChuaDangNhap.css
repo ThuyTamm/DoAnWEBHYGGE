@@ -8,9 +8,22 @@
    
 }
 section {
+   
+}
+
+.MoDau {
     background: rgba(244, 247, 251, 1);
 }
 
+.VeChungToi {
+    background: rgba(244, 247, 251, 1);
+}
+
+
+
+.BacSi {
+    background: rgba(244, 247, 251, 1);
+}
 marquee {
     background: linear-gradient(90deg, #27CBC9 0%, #0078BD 118.75%);
     color: white;
@@ -55,7 +68,7 @@ marquee {
 .cardDichVu {
     width: 280px;
     height: 260px;
-    background: rgba(255, 255, 255, 1);
+    background: rgba(244, 247, 251, 1);
     border: 1px solid rgba(204, 204, 204, 1);
 }
 
@@ -125,6 +138,8 @@ marquee {
     border: 1px solid rgba(204, 204, 204, 1);
     width: 280px;
     height: 240px;
+    background: rgba(255, 255, 255, 1);
+    margin-bottom: 20px;
 }
 
 
@@ -136,7 +151,7 @@ marquee {
 .cardTuVan {
     width: 400px;
     height: 180px;
-    background: rgba(255, 255, 255, 1);
+    background: rgba(244, 247, 251, 1);
     border: 1px solid rgba(204, 204, 204, 1);
     padding: 10px
 }
