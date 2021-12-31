@@ -150,3 +150,28 @@ marquee {
     display: block;
 }
 
+
+.buttonCall {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.btnCall {
+    flex: 1 1 auto;
+    padding: 10px 24px;
+    text-align: center;
+    text-transform: none;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 51%, #27CBC9 100%);
+    display: flex;
+    border: none;
+    margin: auto;
+}
+
+    .btnCall:hover {
+        background-position: right center;
+    }

@@ -18,10 +18,10 @@
 
         <nav class="nav_menu">
             <ul class="nav_menu">
-                <li><a href="#">Bệnh nhân</a></li>
-                <li><a href="#">Bác sĩ</a></li>
-                <li><a href="#">Blog chia sẻ</a></li>
-                <li><a href="#">Về chúng tôi</a></li>
+                <li><a href="#BenhNhan">Bệnh nhân</a></li>
+                <li><a href="#BacSi">Bác sĩ</a></li>
+                <li><a href="#Blog">Blog chia sẻ</a></li>
+                <li><a href="#VeChungToi">Về chúng tôi</a></li>
             </ul>
         </nav>
 
@@ -70,7 +70,7 @@
         </div>
 
 
-        <div>
+        <div id="BenhNhan">
             <table>
                 <tr>
                     <td>
@@ -135,10 +135,41 @@
             </div>
 
         </div>
+
+
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-        <div style="margin: auto">
+
+
+        <div style="margin: auto; margin-top: 20px" id="VeChungToi">
+            <table style="margin-left: 60px">
+                <tr>
+                    <td>
+                        <h3 style="text-align: center; color: #0078BD">Chúng tôi luôn ở đây để hỗ trợ bạn suốt 24 giờ trong ngày…</h3>
+                        <p style="text-align: center; margin-top: 10px">Chào mừng quý khách hàng đã tìm đến Viện Tâm Lý HYGGE– là vùng đất tinh thần có những chuyên gia tâm lý trong và ngoài nước, giàu tâm đức, trách nhiệm và chuyên môn. Tại HYGGE, bạn được chào đón 24 giờ trong ngày, đội ngũ chuyên gia tâm lý luôn túc trực sẵn sàng đồng hành bất cứ khi nào bạn cần trợ giúp. Chúng tôi luôn tuân thủ nguyên tắc đạo đức hành nghề, tận tâm trách nhiệm, tối ưu dịch vụ và bảo mật tuyệt đối.</p>
+                        <h4 style="text-align: center; color: #0078BD; margin-top: 10px">Kết nối chuyên gia tâm lý ngay trong giây lát:</h4>
+                        <div class="buttonCall">
+                            <button type="button" class="btnCall">
+                                <span>0123456789</span>
+                                <span style="margin-left: 10px">
+                                    <ion-icon name="call-outline"></ion-icon>
+                                </span>
+                            </button>
+                        </div>
+                    </td>
+
+                    <td>
+                        <iframe style="margin-right: 60px; margin-left: 40px" width="560" height="315" src="https://www.youtube.com/embed/SHD5jCyC5FQ?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+
+
+        <div style="margin: auto" id="VeChungToi">
             <h2 style="text-align: center">DỊCH VỤ TƯ VẤN SỨC KHỎE TÂM LÝ HYGGE</h2>
             <table>
                 <tr>
@@ -212,7 +243,7 @@
 
 
     </section>
-    <div style="margin-bottom: 20px">
+    <div id="BacSi" style="margin-bottom: 20px">
         <table>
             <tr>
                 <td><h2>Các bác sĩ nổi bật</h2></td>
@@ -271,7 +302,7 @@
         </table>
     </div>
 
-    <iframe src="BlogNoiBat.html" scrolling="no" width="100%" height="800px" style="border: none"></iframe>
+    <iframe id="Blog" src="BlogNoiBat.html" scrolling="no" width="100%" height="800px" style="border: none"></iframe>
 
     
 
