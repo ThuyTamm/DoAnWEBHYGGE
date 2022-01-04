@@ -9,11 +9,9 @@ iframe {
     border: none;
 }
 
-
 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 60px;
     font-family: Roboto;
     font-size: 24px;
     font-weight: bold;
@@ -865,6 +863,7 @@ a {
         margin-bottom: .75rem
     }
 }
+
 .nav_menu_topic {
     list-style: none;
     margin-right: auto;
@@ -911,19 +910,20 @@ nav {
     text-align: center;
     width: 300px;
     height: 300px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 12px 16px;
     z-index: 1;
     border-radius: 10px;
     margin: auto;
     float: inherit;
 }
+
 .dropdown img {
     width: 150px;
     height: 150px;
 }
 
-  .dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
     display: block;
     margin: auto;
 }
