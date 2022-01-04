@@ -38,6 +38,19 @@
         <div class="separador"></div>
     </header>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.js">  </script>
+    <script>
+        document.readyState(function () {
+            window.scroll(function () {
+                if (this.scroll()) {
+                    header.addClass('sticky');
+                } else {
+                    header.addClass('sticky');
+                }
+
+            });
+        });
+    </script>
     <section>
 
         <marquee direction="right" behavior="scroll" loop=-1 scrollamount=10>
@@ -53,11 +66,12 @@
                             <p style="text-align: center; margin-top: 10px">
                                 Kiểm soát tâm lý dễ dàng hơn chỉ với buổi <br /> trò chuyện cùng các chuyên gia của chúng tôi.
                             </p>
-                            <form class="buttonDatLich" action="#" style="margin-top: 20px">
-                                <div>
-                                    <input class="btnDatLich" type="submit" value="Đặt lịch ngay">
-                                </div>
-                            </form>
+
+                            <div class="buttonDatLich" style="margin-top: 20px">
+                                <input class="btnDatLich" type="button" value="Đặt lịch ngay" onclick="location.href='DatLichHen.html'">
+                            </div>
+
+
                         </div>
                     </td>
                     <td align="center">
@@ -241,12 +255,8 @@
 
 
     <div id="BacSi" class="BacSi">
+        <h2>Các bác sĩ nổi bật</h2>
         <table align="center" style="margin: auto;" width="50%">
-            <tr>
-                <td>
-                    <h2>Các bác sĩ nổi bật</h2>
-                </td>
-            </tr>
             <tr>
                 <td>
                     <div class="LichHenSapToi">
