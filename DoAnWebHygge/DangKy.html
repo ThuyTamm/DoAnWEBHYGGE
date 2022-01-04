@@ -12,16 +12,16 @@
 
     <header>
         <div>
-            <a href="#"><img class="logo" src="Images/Hygge.png" alt="Hygge" /></a>
+            <a href="HomeChuaDangNhap.html"><img class="logo" src="Images/Hygge.png" alt="Hygge" /></a>
 
         </div>
 
         <nav class="nav_menu">
             <ul class="nav_menu">
-                <li><a href="#BenhNhan">Bệnh nhân</a></li>
-                <li><a href="#BacSi">Bác sĩ</a></li>
-                <li><a href="#Blog">Blog chia sẻ</a></li>
-                <li><a href="#VeChungToi">Về chúng tôi</a></li>
+                <li><a href="HomeChuaDangNhap.html#BenhNhan">Bệnh nhân</a></li>
+                <li><a href="HomeChuaDangNhap.html#BacSi">Bác sĩ</a></li>
+                <li><a href="HomeChuaDangNhap.html#Blog">Blog chia sẻ</a></li>
+                <li><a href="HomeChuaDangNhap.html#VeChungToi">Về chúng tôi</a></li>
             </ul>
         </nav>
 
@@ -48,11 +48,13 @@
 
         <div class="content">
             <div class="form">
-                <h2>Chào mừng đến với Hygge</h2>
+                <div align="center">
+                    <h2>Chào mừng đến với Hygge</h2>
+                </div>
 
                 <h3>Đăng ký với</h3>
 
-                <div class="iconDangNhap">
+                <div class="iconDangNhap" align="center">
                     <a href="KhaoSat.html"><img class="facebook" src="Images/facebook.png" /></a>
                     <a href="KhaoSat.html"><img class="google" src="Images/google.png" /></a>
                 </div>
@@ -67,17 +69,17 @@
                 <form action="#">
 
                     <div class="input-form">
-                        <span class="text">Email*</span>
+                        <span class="text">Email<a style="color: red;">*</a></span>
                         <input class="email" type="email" required name="">
                     </div>
 
                     <div class="input-form">
-                        <span class="text">Mật Khẩu*</span>
+                        <span class="text">Mật Khẩu<a style="color: red;">*</a></span>
                         <input class="password" type="password" required name="">
                     </div>
 
                     <div class="input-form">
-                        <span class="text">Nhập lại mật khẩu*</span>
+                        <span class="text">Nhập lại mật khẩu<a style="color: red;">*</a></span>
                         <input class="password" type="password" required name="">
                     </div>
 
@@ -87,7 +89,7 @@
                     </div>
 
                     <div class="input-form">
-                        <input class="btnDangKy" type="submit" value="Đăng Ký">
+                        <input class="btnDangKy" type="button" value="Đăng Ký" onclick="location.href='ManHinhBenhNhanLanDauSuDung.html'">
                     </div>
 
                     <div class="input-form">
