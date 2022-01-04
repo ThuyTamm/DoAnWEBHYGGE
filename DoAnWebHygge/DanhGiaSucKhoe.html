@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <title>Đánh giá sức khỏe</title>
@@ -10,11 +11,12 @@
         /* Hiển thị giá trị mặc định 50 cho thẻ span với id là demo*/
         output.innerHTML = slider.value;
         /* cập nhật giá trị hiện tại của ranger slider*/
-        slider.oninput = function () {
+        slider.oninput = function() {
             output.innerHTML = this.value;
         }
     </script>
 </head>
+
 <body>
     <h2>Đánh giá sức khỏe tinh thần của bạn trong những hoạt động hằng ngày</h2>
     <div class="block">
@@ -75,6 +77,7 @@
         <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
     </div>
     <h3><i>"Sức khỏe tốt và trí tuệ minh mẫn là hai điều hạnh phúc nhất của cuộc đời"</i></h3>
-    <input class="btnHoanThanh" type="submit" value="Hoàn thành">
+
 </body>
+
 </html>
