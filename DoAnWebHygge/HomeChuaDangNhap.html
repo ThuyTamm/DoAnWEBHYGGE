@@ -38,6 +38,19 @@
         <div class="separador"></div>
     </header>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.js">  </script>
+    <script>
+        document.readyState(function () {
+            window.scroll(function () {
+                if (this.scroll()) {
+                    header.addClass('sticky');
+                } else {
+                    header.addClass('sticky');
+                }
+
+            });
+        });
+    </script>
     <section>
 
         <marquee direction="right" behavior="scroll" loop=-1 scrollamount=10>
@@ -53,9 +66,11 @@
                             <p style="text-align: center; margin-top: 10px">
                                 Kiểm soát tâm lý dễ dàng hơn chỉ với buổi <br /> trò chuyện cùng các chuyên gia của chúng tôi.
                             </p>
+
                             <div>
                                 <input class="btnDatLich" type="button" value="Đặt lịch ngay" onclick="location.href='DangKy.html'">
                             </div>
+
                         </div>
                     </td>
                     <td align="center">
