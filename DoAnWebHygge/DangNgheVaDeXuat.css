@@ -7,6 +7,17 @@ body {
     width: 100%;
 }
 
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
 .left {
     width: 60%;
     background: #F4F7FB;

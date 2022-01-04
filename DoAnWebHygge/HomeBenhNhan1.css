@@ -25,10 +25,10 @@ marquee {
 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 40px;
+    margin-left: 60px;
     font-family: Roboto;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: bold;
     color: black;
 }
 
@@ -85,3 +85,13 @@ h3 {
         border: none;
 
     }
+
+
+.container {
+    background-color: rgba(244, 247, 251, 1);
+}
+
+
+.Footer {
+ 
+}

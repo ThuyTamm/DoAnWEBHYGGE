@@ -26,6 +26,12 @@ h2 {
     margin-left: 40px;
     font-family: Roboto;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: bold;
     color: black;
+}
+
+iframe
+{
+    width: 100%;
+    border: none;
 }
