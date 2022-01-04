@@ -30,10 +30,6 @@ marquee {
     width: 100%;
 }
 
-.buttonDatLich {
-    margin: auto;
-}
-
 .btnDatLich {
     flex: 1 1 auto;
     padding: 10px 24px;
@@ -46,6 +42,7 @@ marquee {
     background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 51%, #27CBC9 100%);
     display: flex;
     border: none;
+    margin-top: 20px;
 }
 
 .btnDatLich:hover {
@@ -141,7 +138,6 @@ marquee {
 }
 
 .DichVuTuVan {
-    padding-top: 20px;
     padding-bottom: 20px;
     margin: 0px 10px;
 }

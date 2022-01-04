@@ -1,23 +1,22 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-body{
+body {
     text-align: center;
     margin: auto;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   
 }
-
 
 h2 {
     margin-top: 20px;
     margin-bottom: 20px;
- 
     font-family: Roboto;
     font-size: 24px;
     font-weight: bold;
     color: black;
 }
 
+
 /*Thiết lập style cho ranger slider*/
+
 .slider {
     -webkit-appearance: none;
     width: 100%;
@@ -29,26 +28,29 @@ h2 {
     transition: opacity .2s;
 }
 
-    /*Thiết kế phần để kéo trượt trong rangerslider -- dùng -webkit- để chạy trên Chrome, Opera, Safari, Edge*/
-    .slider::-webkit-slider-thumb {
-        -webkit-appearance: none;
-        appearance: none;
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-        background: DodgerBlue;
-        cursor: pointer;
-    }
 
-    /*-moz- dùng để thiết kế rangerslider trên firefox nhé*/
-    .slider:-moz-range-thumb {
-        width: 25px;
-        height: 25px;
-        border-radius: 50%;
-        background: #4CAF50;
-        cursor: pointer;
-    }
+/*Thiết kế phần để kéo trượt trong rangerslider -- dùng -webkit- để chạy trên Chrome, Opera, Safari, Edge*/
 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: DodgerBlue;
+    cursor: pointer;
+}
+
+
+/*-moz- dùng để thiết kế rangerslider trên firefox nhé*/
+
+.slider:-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
 
 input[type=range] {
     -webkit-appearance: none;
@@ -56,30 +58,30 @@ input[type=range] {
     width: 50%;
 }
 
-    input[type=range]:focus {
-        outline: none;
-    }
+input[type=range]:focus {
+    outline: none;
+}
 
-    input[type=range]::-webkit-slider-runnable-track {
-        width: 100%;
-        height: 5px;
-        cursor: pointer;
-        /* animate: 0.2s; */
-        background: #03a9f4;
-        background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 100%);
-        border-radius: 25px;
-    }
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    /* animate: 0.2s; */
+    background: #03a9f4;
+    background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 100%);
+    border-radius: 25px;
+}
 
-    input[type=range]::-webkit-slider-thumb {
-        height: 20px;
-        width: 20px;
-        border-radius: 50%;
-        background: #fff;
-        box-shadow: 0 0 4px 0 rgba(0,0,0, 1);
-        cursor: pointer;
-        -webkit-appearance: none;
-        margin-top: -8px;
-    }
+input[type=range]::-webkit-slider-thumb {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 1);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -8px;
+}
 
 .range-wrap {
     width: 500px;
@@ -91,37 +93,37 @@ input[type=range] {
     top: -50%;
 }
 
-    .range-value span {
-        width: 30px;
-        height: 24px;
-        line-height: 24px;
-        text-align: center;
-        background: #03a9f4;
-        color: #fff;
-        font-size: 12px;
-        display: block;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, 0);
-        border-radius: 6px;
-    }
+.range-value span {
+    width: 30px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    background: #03a9f4;
+    color: #fff;
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    border-radius: 6px;
+}
 
-        .range-value span:before {
-            content: "";
-            position: absolute;
-            width: 0;
-            height: 0;
-            border-top: 10px solid #03a9f4;
-            border-left: 5px solid transparent;
-            border-right: 5px solid transparent;
-            top: 100%;
-            left: 50%;
-            margin-left: -5px;
-            margin-top: -1px;
-        }
+.range-value span:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #03a9f4;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    margin-top: -1px;
+}
 
 .block {
-    border: 1px solid rgba(0,0,0,.1);
+    border: 1px solid rgba(0, 0, 0, .1);
     border-radius: 2px;
     height: 100px;
     width: 50%;
@@ -136,6 +138,7 @@ hr {
     border-radius: 20px;
     background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 100%);
 }
+
 .cutmargin {
     margin-bottom: -5px;
     padding-top: 1em;
@@ -144,20 +147,3 @@ hr {
     border-radius: 2px;
     width: 50%;
 }
-.btnHoanThanh {
-    flex: 1 1 auto;
-    padding: 8px 24px;
-    text-align: center;
-    text-transform: none;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;
-    border-radius: 10px;
-    background-image: linear-gradient(to right, #27CBC9 0%, #2436A0 51%, #27CBC9 100%);
-    border: none;
-    margin: auto;
-}
-
-    .btnHoanThanh:hover {
-        background-position: right center;
-    }
