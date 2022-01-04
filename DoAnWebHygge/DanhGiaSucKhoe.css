@@ -7,6 +7,16 @@ body{
 }
 
 
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+ 
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
 /*Thiết lập style cho ranger slider*/
 .slider {
     -webkit-appearance: none;
