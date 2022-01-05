@@ -148,8 +148,10 @@ h3 {
     display: inline;
 }
 
+
 .thanhtoan {
     background-color: #F4F7FB;
+
     border-radius: 10px;
     width: auto;
     text-align: center;
@@ -161,6 +163,7 @@ h3 {
     background-color: darkgray;
 }
 
+
 .thanhtoan img {
     width: 40px;
     height: 40px;
@@ -168,11 +171,13 @@ h3 {
     margin-top: 10px;
 }
 
-.thanhtoan p {
+
+.thanhtoan p{
     font-size: 15px;
     margin: 0;
     font-weight: bold;
 }
+
 
 .cc-selector input {
     margin: auto;
@@ -223,3 +228,40 @@ h3 {
     -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
     filter: brightness(1.2) grayscale(.5) opacity(.9);
 }
+
+.cc-selector input{
+    margin: auto;
+    -webkit-appearance:none;
+       -moz-appearance:none;
+            appearance:none;
+}
+.bank{background-image:url(Images/Bank.png);}
+.momo{background-image:url(Images/MoMo_Logo.png);}
+.cash{background-image:url(Images/money.png);}
+
+.cc-selector input:active +.drinkcard-cc{opacity: .9;}
+.cc-selector input:checked +.drinkcard-cc{
+    -webkit-filter: none;
+       -moz-filter: none;
+            filter: none;
+}
+.drinkcard-cc{
+    cursor:pointer;
+    background-size:contain;
+    background-repeat:no-repeat;
+    display:inline-block;
+    width:60px;
+    height: 60px;
+    -webkit-transition: all 100ms ease-in;
+       -moz-transition: all 100ms ease-in;
+            transition: all 100ms ease-in;
+    -webkit-filter: brightness(1.8) grayscale(1) opacity(.7);
+       -moz-filter: brightness(1.8) grayscale(1) opacity(.7);
+            filter: brightness(1.8) grayscale(1) opacity(.7);
+}
+.drinkcard-cc:hover{
+    -webkit-filter: brightness(1.2) grayscale(.5) opacity(.9);
+       -moz-filter: brightness(1.2) grayscale(.5) opacity(.9);
+            filter: brightness(1.2) grayscale(.5) opacity(.9);
+}
+
