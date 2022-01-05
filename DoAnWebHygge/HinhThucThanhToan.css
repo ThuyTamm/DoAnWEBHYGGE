@@ -138,7 +138,8 @@ h3 {
     margin: auto;
     display: inline;
 }
-.discount .magiamgia{
+
+.discount .magiamgia {
     width: 60%;
     height: 25px;
     border-radius: 10px;
@@ -147,19 +148,29 @@ h3 {
     display: inline;
 }
 
-.thanhtoan{
+
+.thanhtoan {
+    background-color: #F4F7FB;
+
     border-radius: 10px;
     width: auto;
     text-align: center;
-    border-right: 0; border-left: 0;
+    border-right: 0;
+    border-left: 0;
 }
 
-.thanhtoan img{
+.thanhtoan :hover {
+    background-color: darkgray;
+}
+
+
+.thanhtoan img {
     width: 40px;
     height: 40px;
     text-align: center;
     margin-top: 10px;
 }
+
 .thanhtoan p{
     font-size: 15px;
     margin: 0;
