@@ -1,7 +1,7 @@
 document.querySelector(".containerRight").classList.add("batTac");
+document.querySelector(".containerRight2").classList.add("batTac");
 var dropdown1 = document.querySelectorAll("#dropdown1 li");  
 
-// chỉnh sữa tên bệnh nhân tại đây.
 const thongTinBN = [
     {
         ten:"Bệnh nhân 1", 
@@ -53,6 +53,8 @@ dropdown1.forEach(function(dropChild) {
         var hinhThuc = document.querySelector(".hinhThuc");
         const thongBao = document.querySelector(".containerRight");  
         thongBao.classList.add("batTac"); 
+        document.querySelector(".containerRight2").classList.add("batTac");
+        
         if (dropChild.id == "BN1") {
             thongBao.classList.remove("batTac"); 
             tenBN.innerHTML = thongTinBN[0].ten; 
@@ -94,12 +96,44 @@ dropdown1.forEach(function(dropChild) {
 })
 
 var btnLichHen = document.querySelector(".tieuDedivLichHen"); 
-
 btnLichHen.addEventListener("click",function(){
     var btnDrop1 = document.getElementById("dropdown1"); 
     btnDrop1.classList.toggle("batTac"); 
     var x1 = document.querySelector(".icon1"); 
     var x2 = document.querySelector(".icon2"); 
     x1.classList.toggle("batTac");
-    x2.classList.toggle("batTac"); 
+    x2.classList.toggle("batTac");
 }); 
+
+
+
+// logic xử lý cho drop2  
+var listChild2 = document.querySelectorAll(".child-down2"); 
+
+listChild2.forEach(
+
+    function (child2) {
+        child2.addEventListener('click',
+            function () {
+                
+            }
+        )
+    }
+)
+
+
+var btn2 = document.querySelector(".clickDropdown2"); 
+
+btn2.addEventListener("click",function(){
+    var btnDrop1 = document.getElementById("dropdown2"); 
+    btnDrop1.classList.toggle("batTac"); 
+    var x1 = document.querySelector(".icon3"); 
+    var x2 = document.querySelector(".icon4"); 
+    x1.classList.toggle("batTac");
+    x2.classList.toggle("batTac");
+    // bật lên cái khung thử
+    // => cho thằng kia none 
+    document.querySelector(".containerRight").classList.add("batTac");
+    document.querySelector(".containerRight2").classList.remove("batTac");
+
+});

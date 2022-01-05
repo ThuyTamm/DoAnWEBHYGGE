@@ -141,7 +141,21 @@ body {
   border: 2px solid black;
   margin: 40px;
   border-radius: 10px;
-  height: 600px;
+  height: 630px;
+}
+
+.containerRight2 {
+  width: 58%;
+  border: 2px solid black;
+  margin: 40px;
+  border-radius: 10px;
+  height: 700px;
+}
+
+.containerRight2 > div > img{
+  max-width: 100%;
+  width: 80px;
+  padding: 30px;
 }
 
 .canGiua {
@@ -171,6 +185,14 @@ body {
   padding: 5px;
 }
 
+.thongTinBenhNhan1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.thongTinBenhNhan1 > div > p {
+  padding: 1px;
+}
 
 .thoiGian > p {
   padding: 4px;
@@ -180,6 +202,14 @@ body {
   margin: 20px;
   border: 1px solid black;
   height: 60px;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.ghiChu1{
+  margin: 20px;
+  border: 1px solid black;
+  height: 70px;
   border-radius: 8px;
   padding: 6px;
 }
@@ -203,8 +233,19 @@ body {
   color: white;
   font-size: 14px;
 }
-.btn > button :hover{
-  
+
+
+#benhNhan {
+  border: 3px solid rgba(6, 115, 240, 0.2);
+  border-radius: 10px;
 }
 
+.child-down2 {
+  display: flex;
+  border-top: 1px solid royalblue;
+  cursor: pointer;
+  padding: 15px;
+}
 
+#thuNghiem {
+}

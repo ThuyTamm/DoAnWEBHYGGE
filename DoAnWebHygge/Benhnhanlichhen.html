@@ -62,16 +62,17 @@
           </li>
             </ul>
         </div>
-        <div id="lichHen">
-          <div class="tieuDedivLichHen">
+        <!-- bắc đầu bệnh nhân -->
+        <div id="benhNhan">
+          <div class="clickDropdown2">
             <h2 style="font-size: 30px;">
               Bệnh nhân
             </h2>
-              <i class="fas fa-chevron-down icon1"></i>
-              <i class="fas fa-chevron-up icon2 batTac"></i>
+              <i class="fas fa-chevron-down icon3"></i>
+              <i class="fas fa-chevron-up icon4 batTac"></i>
           </div>
-          <ul id="dropdown1">
-            <li id="BN1" class="child-dropdown">
+          <ul id="dropdown2">
+            <li class="child-down2">
               <div class="queue-cover">
                 <img src="../DoAnWebHygge/Images/Dat.png" alt="">
               </div>
@@ -88,7 +89,7 @@
                   </h4>
               </div>
             </li>
-            <li id="BN2" class="child-dropdown">
+            <li class="child-down2">
               <div class="queue-cover">
                 <img src="../DoAnWebHygge/Images/Dat.png" alt="">
               </div>
@@ -105,7 +106,7 @@
                 </h4>
             </div>
           </li>
-          <li id="BN3" class="child-dropdown">
+          <li class="child-down2">
             <div class="queue-cover">
               <img src="../DoAnWebHygge/Images/Dat.png" alt="">
             </div>
@@ -124,7 +125,9 @@
         </li>
           </ul>
       </div>
+      
     </div>
+    <!-- phần bên phải -->
     <div class="containerRight">
       <div class="canGiua">
         <div class="queue-cover1">
@@ -145,12 +148,14 @@
             <p><b style="font-weight: bolder;">Đang ở chung với: </b><span class="dangChungVoi"></span></p>
           </div>
       </div>
-          <hr style="color: blue;">
-            <div class="thoiGian">
-              <p><b style="font-weight: bolder;">Thời gian: </b><span class="thoiGianBN"></span></p>
-              <p><b style="font-weight: bolder;">Ngày: </b><span class="ngayBN"></span></p>
-              <p><b style="font-weight: bolder;">Hình thức: </b><span class="hinhThuc"></span></p>
-              
+          <hr style="background-color: black;border-color: black; ">
+            <div class="thoiGian" style="display: flex;">
+              <img src="../DoAnWebHygge/Images/calendar 1.png" alt="">
+              <div style="margin-top: auto; margin-bottom: auto;">
+                <p><b style="font-weight: bolder;"> Thời gian: </b><span class="thoiGianBN"></span></p>
+                <p><b style="font-weight: bolder;">Ngày: </b><span class="ngayBN"></span></p>
+                <p><b style="font-weight: bolder;">Hình thức: </b><span class="hinhThuc"></span></p>
+              </div>
             </div>
             <div class="ghiChu">
               nội dung ghi chú...
@@ -159,9 +164,44 @@
               <button>Bắt đầu gọi</button>
             </div>
     </div>
+    <div class="containerRight2">
+      <div class="canGiua">
+        <div class="queue-cover1">
+          <img src="../DoAnWebHygge/Images/Dat.png" alt="">
+        </div>
+      </div>  
+      <div class="canGiua">
+        <h3 class="tenBenNhan" > Nguyễn Phát Đạt</h3>
+      </div>
+      <div class="thongTinBenhNhan">
+          <div TTBNleft>
+            <p> <b style="font-weight: bolder;">Tuổi: </b><span class="tuoiBN"></span></p>
+            <p ><b style="font-weight: bolder;">Giới tính: </b><span class="gioiTinhBN"></span></p>
+            <p ><b style="font-weight: bolder;">Nghề nghiệp: </b><span class="ngheNghiepBN"></span></p>
+          </div>
+          <div class="TTBNright">
+            <p><b style="font-weight: bolder;">Tình trạng hôn nhân: </b><span class="tinhTrangBN"></span></p>
+            <p><b style="font-weight: bolder;">Đang ở chung với: </b><span class="dangChungVoi"></span></p>
+          </div>
+      </div>
+      <hr style="background-color: black;border-color: black; ">
+      <div class="thongTinBenhNhan1" style="display: flex;">              
+        <img src="../DoAnWebHygge/Images/calendar 1.png" alt="">
+        <textarea style="height: 100%; width: 100%; margin-top: auto; margin-bottom: auto;" class="ghiChu1" placeholder="Hãy viết ghi chú cho bệnh nhân"></textarea>
+      </div>
+      <div class="btn">
+        <button>Cập nhật</button>
+      </div>
+      <hr style="background-color: black;border-color: black; ">
+      <div class="thongTinBenhNhan1" style="display: flex;">              
+        <img src="../DoAnWebHygge/Images/calendar 1.png" alt="">
+        <textarea style="height: 100%; width: 100%; margin-top: auto; margin-bottom: auto;" class="ghiChu1" placeholder="Hãy viết ghi chú cho bệnh nhân"></textarea>
+      </div>
+      <div class="btn">
+        <button>Cập nhật</button>
+      </div>
     </div>
-    
-    
+  </div>
 </body>
 <script src="Lichhen.js"></script>
 </html>
