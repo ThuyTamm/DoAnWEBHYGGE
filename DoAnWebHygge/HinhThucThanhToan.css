@@ -138,32 +138,41 @@ h3 {
     margin: auto;
     display: inline;
 }
-.discount .magiamgia{
+
+.discount .magiamgia {
     width: 60%;
+    height: 25px;
     border-radius: 10px;
     border: 1px solid #27CBC9;
     background-color: #F4F7FB;
     display: inline;
 }
 
-.thanhtoan{
+.thanhtoan {
     background-color: #F4F7FB;
     border-radius: 10px;
     width: 15%;
     text-align: center;
-    border-right: 0; border-left: 0;
+    border-right: 0;
+    border-left: 0;
 }
-.thanhtoan :hover{
+
+.thanhtoan :hover {
     background-color: darkgray;
 }
 
-.thanhtoan img{
+.thanhtoan :checked {
+    background-color: darkgray;
+}
+
+.thanhtoan img {
     width: 40px;
     height: 40px;
     text-align: center;
     margin-top: 10px;
 }
-.thanhtoan p{
+
+.thanhtoan p {
     font-size: 20px;
     margin: 0;
 }
