@@ -5,9 +5,9 @@ var dropdown1 = document.querySelectorAll("#dropdown1 li");
 const thongTinBN = [
     {
         ten:"Bệnh nhân 1", 
-        tuoi:"Tuổi: 20", 
-        gioiTinh:"Giới tính: Nam",
-        ngheNghiep:"Nghề nghiệp: Sinh viên",
+        tuoi:"20", 
+        gioiTinh:"Nam",
+        ngheNghiep:"Sinh viên",
         tinhTrangHonNhan:"Độc thân",
         dangOChung:"Bạn cùng phòng",
         thoiGian:"ngay",
@@ -16,7 +16,7 @@ const thongTinBN = [
     },
     {
         ten:"Bệnh nhân 2", 
-        tuoi:"Tuổi", 
+        tuoi:"21", 
         gioiTinh:"Giới tính",
         ngheNghiep:"Nghề nghiệp",
         tinhTrangHonNhan:"Độc thân",
@@ -27,8 +27,8 @@ const thongTinBN = [
     },
     {
         ten:"Bệnh nhân 3", 
-        tuoi:"Tuổi", 
-        gioiTinh:"Giới tính",
+        tuoi:"18", 
+        gioiTinh:"Nữ",
         ngheNghiep:"Nghề nghiệp",
         tinhTrangHonNhan:"Độc thân",
         dangOChung:"Bạn cùng phòng",
