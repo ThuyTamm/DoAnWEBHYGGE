@@ -141,6 +141,7 @@ body {
   border: 2px solid black;
   margin: 40px;
   border-radius: 10px;
+  height: 600px;
 }
 
 .canGiua {
@@ -163,7 +164,7 @@ body {
 .thongTinBenhNhan {
   display: flex;
   justify-content: space-around;
-  margin: 15px;
+  margin: 25px;
 }
 
 .thongTinBenhNhan > div > p {
@@ -196,12 +197,14 @@ body {
   margin-bottom: 20px;
   padding: 6px;
   font-size: 18px;
-  background: green;
+  background: rgb(32, 186, 233);
   border: none;
   border-radius: 6px;
   color: white;
   font-size: 14px;
 }
-
+.btn > button :hover{
+  
+}
 
 
