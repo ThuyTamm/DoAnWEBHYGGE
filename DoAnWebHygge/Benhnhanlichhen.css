@@ -33,6 +33,13 @@ body {
   
 }
 
+.clickDropdown2{
+  padding: 20px; 
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
 .icon1 {
   size: 32px;
   padding: 10px;
@@ -221,7 +228,7 @@ body {
 }
 .btn > button {
   margin-right: 20px;
-  width: 120px;
+  width: 90px;
   height: 16px;
   display: block;
   margin-bottom: 20px;

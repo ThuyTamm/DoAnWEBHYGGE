@@ -136,4 +136,5 @@ btn2.addEventListener("click",function(){
     document.querySelector(".containerRight").classList.add("batTac");
     document.querySelector(".containerRight2").classList.remove("batTac");
 
+    
 });
