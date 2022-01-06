@@ -152,6 +152,7 @@ body {
 
 #container1{
   display: none;
+  background-color: rgba(244, 247, 251, 1);
 }
 
 
@@ -249,8 +250,23 @@ body {
 .btn {
   display: flex;
   justify-content: end;
-  
-
+}
+.btn1{
+  display: flex;
+  justify-content: end;
+}
+.btn1 > button{
+  margin-right: 20px;
+  width: auto;
+  display: block;
+  margin-bottom: 20px;
+  padding: 6px;
+  font-size: 18px;
+  background:linear-gradient(90deg, #27CBC9 0%, #2436A0 100%);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 14px;
 }
 .btn > button {
   margin-right: 20px;
