@@ -26,7 +26,7 @@ body {
 }
 
 .tieuDedivLichHen {
-  padding:10px; 
+  padding:5px; 
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -34,7 +34,7 @@ body {
 }
 
 .clickDropdown2{
-  padding: 20px; 
+  padding: 5px; 
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -49,10 +49,18 @@ body {
   padding: 10px;
 }
 
+.icon3 {
+  size: 32px;
+  padding: 10px;
+}
+.icon4 {
+  size: 32px;
+  padding: 10px;
+}
+
 .tieuDedivLichHen > h2 {
   font-size: 20px;
   font-weight: 600;
-  padding: 10px;
   font-weight: 700;
   cursor: pointer;
   
@@ -142,6 +150,10 @@ body {
   display: flex;
 }
 
+#container1{
+  display: none;
+}
+
 
 .containerRight {
   width: 58%;
@@ -188,6 +200,7 @@ body {
   margin: 25px;
 }
 
+
 .thongTinBenhNhan > div > p {
   padding: 5px;
 }
@@ -197,12 +210,24 @@ body {
   justify-content: space-around;
 }
 
+.thongTinBenhNhan1 img{
+  width: auto;
+  height: auto;
+  box-sizing: content-box;
+}
+
 .thongTinBenhNhan1 > div > p {
   padding: 1px;
 }
 
 .thoiGian > p {
   padding: 4px;
+}
+
+.thoiGian img{
+  box-sizing: content-box;
+  height: auto;
+  width: auto;
 }
 
 .ghiChu {
@@ -224,23 +249,25 @@ body {
 .btn {
   display: flex;
   justify-content: end;
+  
 
 }
 .btn > button {
   margin-right: 20px;
   width: 90px;
-  height: 16px;
   display: block;
   margin-bottom: 20px;
   padding: 6px;
   font-size: 18px;
-  background: rgb(32, 186, 233);
+  background:linear-gradient(90deg, #27CBC9 0%, #2436A0 100%);
   border: none;
   border-radius: 6px;
   color: white;
   font-size: 14px;
 }
-
+.btn > button:hover{
+  background-position: right center;
+}
 
 #benhNhan {
   border: 3px solid rgba(6, 115, 240, 0.2);
@@ -254,5 +281,5 @@ body {
   padding: 15px;
 }
 
-#thuNghiem {
-}
+
+
