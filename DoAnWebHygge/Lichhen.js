@@ -4,37 +4,37 @@ var dropdown1 = document.querySelectorAll("#dropdown1 li");
 
 const thongTinBN = [
     {
-        ten:"Bệnh nhân 1", 
+        ten:"Nguyễn Khoa Vinh", 
         tuoi:"20", 
         gioiTinh:"Nam",
         ngheNghiep:"Sinh viên",
         tinhTrangHonNhan:"Độc thân",
-        dangOChung:"Bạn cùng phòng",
-        thoiGian:"ngay",
-        ngay:"ngay",
-        hinhThuc:"hinhThuc"
+        dangOChung:"Nhà trọ",
+        thoiGian:"15:00",
+        ngay:"20/12/2021",
+        hinhThuc:"Trực tuyến"
     },
     {
-        ten:"Bệnh nhân 2", 
-        tuoi:"21", 
-        gioiTinh:"Giới tính",
-        ngheNghiep:"Nghề nghiệp",
-        tinhTrangHonNhan:"Độc thân",
-        dangOChung:"Bạn cùng phòng",
-        thoiGian:"ngay",
-        ngay:"ngay",
-        hinhThuc:"hinhThuc"
-    },
-    {
-        ten:"Bệnh nhân 3", 
-        tuoi:"18", 
+        ten:"Võ Thị Bích Trang", 
+        tuoi:"30", 
         gioiTinh:"Nữ",
-        ngheNghiep:"Nghề nghiệp",
+        ngheNghiep:"Nội trợ",
+        tinhTrangHonNhan:"Đã kết hôn",
+        dangOChung:"Chồng",
+        thoiGian:"09:00",
+        ngay:"22/12/2021",
+        hinhThuc:"Trực tuyến"
+    },
+    {
+        ten:"Võ Việt Bằng", 
+        tuoi:"18", 
+        gioiTinh:"Nam",
+        ngheNghiep:"Học sinh",
         tinhTrangHonNhan:"Độc thân",
-        dangOChung:"Bạn cùng phòng",
-        thoiGian:"ngay",
-        ngay:"ngay",
-        hinhThuc:"hinhThuc"
+        dangOChung:"Gia đình",
+        thoiGian:"16:30",
+        ngay:"25/12/2021",
+        hinhThuc:"Trực tuyến"
     }
 ]; 
 
@@ -42,28 +42,28 @@ const thongTinBN = [
 
 const BN = [
     {
-        ten:"Bệnh nhân 1", 
-        tuoi:"20", 
+        ten:"Đặng Huỳnh Chí", 
+        tuoi:"35", 
         gioiTinh:"Nam",
-        ngheNghiep:"Sinh viên",
+        ngheNghiep:"Giám đốc",
         tinhTrangHonNhan:"Độc thân",
-        dangOChung:"Bạn cùng phòng",
+        dangOChung:"Ở riêng",
     },
     {
-        ten:"Bệnh nhân 2 BN", 
+        ten:"Nguyễn Ngọc Nga", 
         tuoi:"20", 
-        gioiTinh:"Nam",
+        gioiTinh:"Nữ",
         ngheNghiep:"Sinh viên",
         tinhTrangHonNhan:"Độc thân",
-        dangOChung:"Bạn cùng phòng",
+        dangOChung:"Gia đình",
     },
     {
-        ten:"Bệnh nhân 3 BN", 
-        tuoi:"20", 
+        ten:"Nguyễn Phát Đạt", 
+        tuoi:"17", 
         gioiTinh:"Nam",
-        ngheNghiep:"Sinh viên",
+        ngheNghiep:"Học sinh",
         tinhTrangHonNhan:"Độc thân",
-        dangOChung:"Bạn cùng phòng",
+        dangOChung:"Gia đình",
     }
 
 ]
@@ -140,41 +140,43 @@ btnLichHen.addEventListener("click",function(){
 // logic xử lý cho drop2  
 var listChild2 = document.querySelectorAll(".child-down2"); 
 
-listChild2.forEach(function (child2) {
+listChild2.forEach(
+
+    function (child2) {
         child2.addEventListener('click',
             function () {
-                var tenBN2 = document.getElementById("ten2");
-                var tuoiBN2 = document.getElementById("tuoi2"); 
-                var gioiTinh2 = document.getElementById("gioiTinh2");
-                var ngheNghiep2 = document.getElementById("ngheNghiep2");
-                var tinhTrang2 = document.getElementById("tinhTrang2"); 
-                var oChung2 = document.getElementById("oChung2");
+                var tenBN = document.getElementById("ten2");
+                var tuoiBN = document.getElementById("tuoi2"); 
+                var gioiTinh = document.getElementById("gioiTinh2");
+                var ngheNghiep = document.getElementById("ngheNghiep2");
+                var tinhTrang = document.getElementById("tinhTrang2"); 
+                var oChung = document.getElementById("oChung2");
                 document.querySelector(".containerRight").classList.add("batTac");
                 document.querySelector(".containerRight2").classList.remove("batTac");
                 if (child2.id == "B1") {
-                    tenBN2.innerHTML = thongTinBN[0].ten; 
-                    tuoiBN2.innerHTML = thongTinBN[0].tuoi;
-                    gioiTinh2.innerHTML = thongTinBN[0].gioiTinh;
-                    ngheNghiep2.innerHTML = thongTinBN[0].ngheNghiep; 
-                    tinhTrang2.innerHTML = thongTinBN[0].tinhTrangHonNhan; 
-                    oChung2.innerHTML =  thongTinBN[0].dangOChung;
+                    tenBN.innerHTML = BN[0].ten; 
+                    tuoiBN.innerHTML = BN[0].tuoi;
+                    gioiTinh.innerHTML = BN[0].gioiTinh;
+                    ngheNghiep.innerHTML = BN[0].ngheNghiep; 
+                    tinhTrang.innerHTML = BN[0].tinhTrangHonNhan; 
+                    oChung.innerHTML =  BN[0].dangOChung;
 
                 }
                 else if ( child2.id == "B2") {
-                    tenBN2.innerHTML = thongTinBN[1].ten; 
-                    tuoiBN2.innerHTML = thongTinBN[1].tuoi;
-                    gioiTinh2.innerHTML = thongTinBN[1].gioiTinh;
-                    ngheNghiep2.innerHTML = thongTinBN[1].ngheNghiep; 
-                    tinhTrang2.innerHTML = thongTinBN[1].tinhTrangHonNhan; 
-                    oChung2.innerHTML =  thongTinBN[1].dangOChung;
+                    tenBN.innerHTML = BN[1].ten; 
+                    tuoiBN.innerHTML = BN[1].tuoi;
+                    gioiTinh.innerHTML = BN[1].gioiTinh;
+                    ngheNghiep.innerHTML = BN[1].ngheNghiep; 
+                    tinhTrang.innerHTML = BN[1].tinhTrangHonNhan; 
+                    oChung.innerHTML =  BN[1].dangOChung;
                 }
                 else{
-                    tenBN2.innerHTML = thongTinBN[2].ten; 
-                    tuoiBN2.innerHTML = thongTinBN[2].tuoi;
-                    gioiTinh2.innerHTML = thongTinBN[2].gioiTinh;
-                    ngheNghiep2.innerHTML = thongTinBN[2].ngheNghiep; 
-                    tinhTrang2.innerHTML = thongTinBN[2].tinhTrangHonNhan; 
-                    oChung2.innerHTML =  thongTinBN[2].dangOChung;
+                    tenBN.innerHTML = BN[2].ten; 
+                    tuoiBN.innerHTML = BN[2].tuoi;
+                    gioiTinh.innerHTML = BN[2].gioiTinh;
+                    ngheNghiep.innerHTML = BN[2].ngheNghiep; 
+                    tinhTrang.innerHTML = BN[2].tinhTrangHonNhan; 
+                    oChung.innerHTML =  BN[2].dangOChung;
                 }
                 
             }
@@ -195,6 +197,8 @@ btn2.addEventListener("click",function(){
     // bật lên cái khung thử
     // => cho thằng kia none 
     
+
+    
 });
 // var btnChange = document.getElementById("btnChange");
 // btnChange.addEventListener("click", function(){
@@ -207,7 +211,12 @@ document.getElementById("btnChange").onclick = function(){
 
 document.getElementById("btnCheck").onclick = function(){
     document.getElementById("container1").style.display = 'none';
-}
+};
 document.getElementById("btnOk").onclick = function(){
     document.getElementById("Nut").style.display = 'none';
+    document.getElementById("NutCall").style.display = 'flex';
 };
+document.getElementById("btnCall").onclick = function(){
+    document.getElementById("Nut").style.display = 'flex';
+    document.getElementById("NutCall").style.display = 'none';
+}
