@@ -26,11 +26,18 @@ body {
 }
 
 .tieuDedivLichHen {
-  padding:10px; 
+  padding:5px; 
   display: flex;
   justify-content: space-between;
   text-align: center;
   
+}
+
+.clickDropdown2{
+  padding: 5px; 
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 
 .icon1 {
@@ -42,10 +49,18 @@ body {
   padding: 10px;
 }
 
+.icon3 {
+  size: 32px;
+  padding: 10px;
+}
+.icon4 {
+  size: 32px;
+  padding: 10px;
+}
+
 .tieuDedivLichHen > h2 {
   font-size: 20px;
   font-weight: 600;
-  padding: 10px;
   font-weight: 700;
   cursor: pointer;
   
@@ -135,13 +150,31 @@ body {
   display: flex;
 }
 
+#container1{
+  display: none;
+}
+
 
 .containerRight {
   width: 58%;
   border: 2px solid black;
   margin: 40px;
   border-radius: 10px;
-  height: 600px;
+  height: 630px;
+}
+
+.containerRight2 {
+  width: 58%;
+  border: 2px solid black;
+  margin: 40px;
+  border-radius: 10px;
+  height: 700px;
+}
+
+.containerRight2 > div > img{
+  max-width: 100%;
+  width: 80px;
+  padding: 30px;
 }
 
 .canGiua {
@@ -167,13 +200,34 @@ body {
   margin: 25px;
 }
 
+
 .thongTinBenhNhan > div > p {
   padding: 5px;
 }
 
+.thongTinBenhNhan1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.thongTinBenhNhan1 img{
+  width: auto;
+  height: auto;
+  box-sizing: content-box;
+}
+
+.thongTinBenhNhan1 > div > p {
+  padding: 1px;
+}
 
 .thoiGian > p {
   padding: 4px;
+}
+
+.thoiGian img{
+  box-sizing: content-box;
+  height: auto;
+  width: auto;
 }
 
 .ghiChu {
@@ -184,27 +238,48 @@ body {
   padding: 6px;
 }
 
+.ghiChu1{
+  margin: 20px;
+  border: 1px solid black;
+  height: 70px;
+  border-radius: 8px;
+  padding: 6px;
+}
+
 .btn {
   display: flex;
   justify-content: end;
+  
 
 }
 .btn > button {
   margin-right: 20px;
-  width: 120px;
-  height: 16px;
+  width: 90px;
   display: block;
   margin-bottom: 20px;
   padding: 6px;
   font-size: 18px;
-  background: rgb(32, 186, 233);
+  background:linear-gradient(90deg, #27CBC9 0%, #2436A0 100%);
   border: none;
   border-radius: 6px;
   color: white;
   font-size: 14px;
 }
-.btn > button :hover{
-  
+.btn > button:hover{
+  background-position: right center;
 }
+
+#benhNhan {
+  border: 3px solid rgba(6, 115, 240, 0.2);
+  border-radius: 10px;
+}
+
+.child-down2 {
+  display: flex;
+  border-top: 1px solid royalblue;
+  cursor: pointer;
+  padding: 15px;
+}
+
 
 
