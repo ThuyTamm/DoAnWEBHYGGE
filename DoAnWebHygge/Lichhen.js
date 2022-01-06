@@ -135,8 +135,6 @@ btnLichHen.addEventListener("click",function(){
     x2.classList.toggle("batTac");
 }); 
 
-
-
 // logic xử lý cho drop2  
 var listChild2 = document.querySelectorAll(".child-down2"); 
 
