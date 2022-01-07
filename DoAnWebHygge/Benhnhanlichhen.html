@@ -9,9 +9,9 @@
     <link rel="stylesheet" type="text/css" href="ThoiGianTuVanBenhNhan.css" />
     <script src="https://kit.fontawesome.com/9af177dd8d.js" crossorigin="anonymous"></script>
 </head>
-<body style="background-color: rgba(244, 247, 251, 1);">
-    <div  id="container">
-      <div class="containerLeft" style="background-color: rgba(244, 247, 251, 1);">
+<body >
+    <div  id="container" style="background-color: white;">
+      <div class="containerLeft" >
         <!-- div lịch hẹn -->
         <div id="lichHen">
             <div class="tieuDedivLichHen">
@@ -153,9 +153,9 @@
           <div class="thoiGian" style="display: flex;">
             <img src="../DoAnWebHygge/Images/calendar 1.png" alt="">
             <div style="margin-top: auto; margin-bottom: auto;">
-              <p><b style="font-weight: bolder;">Thời gian: </b><span class="thoiGianBN"></span></p>
-              <p><b style="font-weight: bolder;">Ngày: </b><span class="ngayBN"></span></p>
-              <p><b style="font-weight: bolder;">Hình thức: </b><span class="hinhThuc"></span></p>
+              <p><b style="font-weight: bolder;">Thời gian: </b><span class="thoiGianBN">15:00</span></p>
+              <p><b style="font-weight: bolder;">Ngày: </b><span class="ngayBN">20/12/2021</span></p>
+              <p><b style="font-weight: bolder;">Hình thức: </b><span class="hinhThuc">Trực tuyến</span></p>
             </div>
           </div>
             <div class="ghiChu">
@@ -197,7 +197,7 @@
         <textarea style="height: 100%; width: 100%; margin-top: auto; margin-bottom: auto;" class="ghiChu1" placeholder="Hãy viết ghi chú cho bệnh nhân"></textarea>
       </div>
       <div class="btn">
-        <button>Cập nhật</button>
+        <button onclick="alert('Cập nhật thành công')">Cập nhật </button>
       </div>
       <hr style="background-color: black;border-color: black; ">
       <div class="thongTinBenhNhan1" style="display: flex;">              
@@ -205,11 +205,11 @@
         <textarea style="height: 100%; width: 100%; margin-top: auto; margin-bottom: auto;" class="ghiChu1" placeholder="Hãy viết ghi chú cho bệnh nhân"></textarea>
       </div>
       <div class="btn">
-        <button>Cập nhật</button>
+        <button onclick="alert('Cập nhật thành công')">Cập nhật</button>
       </div>
     </div>
   </div>
-  <div id="container1"  >
+  <div id="container1">
     <section>
       <div class="ThoiGian">
           <h2 style="padding-top: 20px; font-size: 28px;">Thay đổi thời gian tư vấn</h2>
@@ -358,7 +358,7 @@
               </tr>
           </table>
           <div class="btnThayDoi" id="btnCheck">
-            <button onclick="alert('Bạn thay đổi lịch thành công\nĐợi xác nhận từ bệnh nhân')"> Thay đổi thời gian tư vấn</button>
+            <button onclick="alert('Bạn thay đổi lịch thành công\nVui lòng đợi xác nhận từ bệnh nhân')"> Thay đổi thời gian tư vấn</button>
           </div>
         </div>
   </section>
