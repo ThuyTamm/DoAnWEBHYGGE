@@ -183,3 +183,34 @@ marquee {
 .btnCall:hover {
     background-position: right center;
 }
+
+
+
+.ThanhVien {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px 10px;
+    background: rgba(244, 247, 251, 1);
+}
+
+.imgThanhVien {
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.cardThanhVien {
+    width: 100%;
+    height: 260px;
+    background: white;
+    border: 1px solid rgba(204, 204, 204, 1);
+}
+
+    .cardThanhVien:hover {
+        background-color: rgba(204, 204, 204, 1);
+        border: 1px solid rgba(255, 255, 255, 1);
+    }
