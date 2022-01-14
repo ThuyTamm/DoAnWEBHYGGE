@@ -9,10 +9,10 @@ const thongTinBN = [
         gioiTinh:"Nam",
         ngheNghiep:"Sinh viên",
         tinhTrangHonNhan:"Độc thân",
-        dangOChung:"Nhà trọ",
+        dangOChung:"Bạn cùng phòng",
         thoiGian:"15:00",
         ngay:"20/12/2021",
-        hinhThuc:"Trực tuyến"
+        hinhThuc:"Trực tuyền"
     },
     {
         ten:"Võ Thị Bích Trang", 
@@ -34,11 +34,41 @@ const thongTinBN = [
         dangOChung:"Gia đình",
         thoiGian:"16:30",
         ngay:"25/12/2021",
-        hinhThuc:"Trực tuyến"
+        hinhThuc:"Trực tuyền"
     }
 ]; 
 
 // lắng nghe sự kiện click vào bệnh nhân. 
+
+const BN = [
+    {
+        ten:"Nguyễn Phát Đạt", 
+        tuoi:"20", 
+        gioiTinh:"",
+        ngheNghiep:"Sinh viên",
+        tinhTrangHonNhan:"Độc thân",
+        dangOChung:"Bạn cùng phòng",
+    },
+    {
+        ten:"Bệnh nhân 2 BN", 
+        tuoi:"30", 
+        gioiTinh:"Nữ",
+        ngheNghiep:"Sinh viên",
+        tinhTrangHonNhan:"Độc thân",
+        dangOChung:"Bạn cùng phòng",
+    },
+    {
+        ten:"Bệnh nhân 3 BN", 
+        tuoi:"20", 
+        gioiTinh:"Nam",
+        ngheNghiep:"Sinh viên",
+        tinhTrangHonNhan:"Độc thân",
+        dangOChung:"Bạn cùng phòng",
+    }
+
+]
+
+
 
 const BN = [
     {
